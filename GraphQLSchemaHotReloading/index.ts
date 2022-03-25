@@ -5,7 +5,8 @@ import {NoSchemaIntrospectionCustomRule} from "graphql";
 
 const graphQLServerPort = 3592
 const logger = new JsonLogger('test-logger', 'launchFestivalService')
-const initialGraphQLServerOptions: GraphQLServerOptions = {schema: userSchema,
+const initialGraphQLServerOptions: GraphQLServerOptions = {
+    schema: userSchema,
     rootValue: userSchemaResolvers,
     logger: logger,
     debug: false,
@@ -17,7 +18,8 @@ const introspectionDisabledGraphQLServerOptions: GraphQLServerOptions = {
     debug: false,
     customValidationRules: [NoSchemaIntrospectionCustomRule]}
 
-const fruitsGraphQLServerOptions: GraphQLServerOptions = {schema: userAndFruitsSchema,
+const fruitsGraphQLServerOptions: GraphQLServerOptions = {
+    schema: userAndFruitsSchema,
     rootValue: userAndFruitsSchemaResolvers,
     logger: logger,
     debug: false,

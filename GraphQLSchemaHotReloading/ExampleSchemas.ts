@@ -26,7 +26,8 @@ export interface LogoutResult {
 export const initialSchemaWithOnlyDescription = new GraphQLSchema({description:'initial'})
 
 export const userOne: User = {userId: '1', userName:'Robert'}
-export const userTwo: User = {userId: '2', userName:'UserTwo'}
+export const userTwo: User = {userId: '2', userName:'Paul'}
+export const userThree: User = {userId: '3', userName:'Samantha'}
 
 export const avocado: Fruit = {fruitId: '1', fruitLabel:'Avocado'}
 export const blutorange: Fruit = {fruitId: '2', fruitLabel:'Blutorange'}
@@ -150,7 +151,7 @@ export const userSchemaResolvers= {
         throw new GraphQLError('Something went wrong!', {})
     },
     users(): User[] {
-        return [userOne, userTwo]
+        return [userOne, userTwo, userThree]
     },
     user(input: { id: string }): User {
         switch (input.id) {
@@ -158,6 +159,8 @@ export const userSchemaResolvers= {
                 return userOne
             case '2':
                 return userTwo
+            case '3':
+                return userThree
             default:
                 throw new GraphQLError(`User for userid=${input.id} was not found`, {})
         }
