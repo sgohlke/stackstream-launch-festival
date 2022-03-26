@@ -1,0 +1,36 @@
+**Make or use or buy?**
+	Vorhandene Software nutzen
+		:!: Einheitliche Lösung, aber nicht immer passend auf alle Nutzer!
+
+		Software kostenfrei mitbenutzen
+		Lizenz upgraden und mitbenutzen
+	Kaufen
+		Neuentwicklung komplett kaufen
+			:heavy_plus_sign: Auf Bedürfnisse zurecht geschnitten
+			:heavy_minus_sign:Teuer
+			:!: Produktspezifikation klar definieren
+		Teile als Neuentwicklung kaufen (z.B. Frontend)
+			:heavy_plus_sign: Günstiger als komplette Neuentwicklung
+			:heavy_minus_sign: Teurer als Standardlösung
+			:!: Produktspezifikation klar definieren
+			:!: Integration in komplettes System klar definieren
+		Standardlösung kaufen
+			:heavy_plus_sign: Günstiger als Neuentwicklung
+			:heavy_minus_sign: Nur begrenzt anpassbar
+	Selbst entwickeln
+		Komplett selbst entwickeln
+			Framework/Library-Auswahl zur Unterstützung
+		Open Source Software für Teile verwenden
+			headless CMS
+			IAM (Identity and Access Management)
+		Open Source Software/Libraries anpassen
+			:!!: Update Möglichkeit beachten
+	Open Source Software selbst hosten
+		:!: Hosting/Wartung nicht unterschätzen
+		:!: Anpassbarkeit überprüfen
+	Kostenlose Software nutzen
+		Free Account nutzen
+			:!: Datenschutz, Datensicherheit beachten
+			:!: Können Daten exportiert/migriert werden?
+			:!: Wie zukunftssicher ist die Lösung?
+		Social Media Plattformen nutzen
