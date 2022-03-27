@@ -1,0 +1,34 @@
+Qualität und Schnelligkeit
+	System-Architektur
+		In kleinere Services/Komponenten migrieren
+			reduziert Test-Laufzeit
+			reduziert Deployment-Laufzeit
+	Schnelligkeit
+		Nur geänderte Teile deployen
+		CI/CD vorhanden
+		kein/möglichst wenig manuelles Testen
+		Schlanke Abnahme-Prozesse
+		Ggf. Hot reloading/replacing statt Restart
+	Qualität
+		Tests
+			**Vertrauen in die Tests**
+			Sinnvolle Tests/Cases
+				Konkrete Erwartung definieren, kein "notToBeNull"
+				:pen: Definiere erwartete assertions
+			automatisiert in Pipeline laufen
+			Gute Code-Abdeckung
+			Komponentenübergreifende Tests sinnvoll definieren
+				ContractTests
+				IntegrationTests
+				SystemTests
+		Error handling concept definieren
+			Retry-Verhalten definieren
+			Aussagekräftige Fehlermeldungen
+	CI/CD
+		stabile Ressourcen/Runner
+		ausreichend Ressourcen/Runner
+	Mitarbeiter
+		Prozesse/Arbeitsweisen
+		Team-Struktur
+		Erfahrung/eingespieltes Team
+		Ausreichend Mitarbeiter
